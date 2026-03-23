@@ -1,0 +1,73 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Ferico - Personal Portfolio"
+- id: "meta_description"
+  translation: "A personal portfolio website built with Hugo and the Adritian theme."
+- id: "meta_keywords"
+  translation: "hugo, theme, bootstrap, adritian, adrian moreno, personal site, portfolio, single page application"
+- id: "meta_author"
+  translation: "Ferico - https://www.ferico.my.id/"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## Header
+
+- id: "logo_alt"
+  translation: "Ferico logo"
+
+- id: "logo_text1"
+  translation: "Ferico"
+
+- id: "logo_text2"
+  translation: "Portfolio"
+
+## General
+- id: "skipToMainContent"
+  translation: "Skip to main content"
+
+- id: "toggle_navigation"
+  translation: "Toggle navigation"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Ferico. All rights reserved."
+
+- id: "language"
+  translation: "Language"
+
+- id: "toggle_theme"
+  translation: "Toggle theme"
+
+- id: "theme_light"
+  translation: "☀️ Light"
+- id: "theme_dark"
+  translation: "🌑 Dark"
+- id: "theme_auto"
+  translation: "✨ Auto"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Ferico - Personal Portfolio"
+
+- id: "head_description"
+  translation: "A personal portfolio website built with Hugo and the Adritian theme."
+
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published on "
+
+- id: "continue_reading"
+  translation: "Continue reading"
+
+## 404 Page
+- id: "404_title"
+  translation: "Page not found"
+- id: "404_description"  
+  translation: "Sorry, but the page you were looking for could not be found."
+- id: "404_button"
+  translation: "Back to homepage"
+
