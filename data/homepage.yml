@@ -1,0 +1,64 @@
+showcase:
+  button:
+    URL: "mailto:contact@ferico.my.id"
+    icon: "icon-envelope"
+  image:
+    src: "images/about/user-picture.png"
+    width: 400
+    height: 400
+    scale: 0.5
+    shape: "rounded"
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/ferico"
+    - icon: "square-github"
+      URL: "https://github.com/feriva22"
+    - icon: "envelope"
+      URL: "mailto:contact@ferico.my.id"
+
+about:
+  image:
+    src: "images/about/user-picture.png"
+    width: 400
+    height: 400
+    scale: 0.5
+  text_align: "center"
+  button:
+    enable: true
+    URL: "/skills"
+    icon: "icon-gear"
+
+experience:
+  button:
+    enable: true
+    URL: "https://www.linkedin.com/in/ferico"
+    icon: "icon-linkedin"
+  button2:
+    enable: true
+    URL: "/skills"
+    icon: "icon-gear"
+  button3:
+    enable: true
+    URL: "/experience"
+    icon: "icon-list"
+
+contact:
+  form_action: "https://formspree.io/f/mdawrwpv"
+  form_method: "POST"
+  form_name_placeholder: "Your name"
+  form_email_placeholder: "Your e-mail"
+  form_phone_placeholder: "Your phone"
+  form_message_placeholder: "Your message"
+  button_text: "Send message"
+  phone_heading: "Phone"
+  email_heading: "Email"
+  location_heading: "Location"
+  phone: "<a href='tel:+6285121043828'>6285 1210 43828</a>"
+  phone_display: "6285 1210 43828"
+  email: "<a href='mailto:contact@ferico.my.id'>contact@ferico.my.id</a>"
+  location: "Jakarta, Indonesia"
+
+newsletter:
+  form:
+    action: "/"
+    method: "POST"

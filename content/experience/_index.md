@@ -1,40 +1,23 @@
 ---
 title: Experience
-button1_text: See page source
-button1_url: https://github.com/zetxek/adritian-demo/blob/main/content/experience/_index.md
-button1_icon: icon-square-github
+button1_text: Connect on LinkedIn
+button1_url: https://www.linkedin.com/in/ferico
+button1_icon: icon-linkedin
 
-button2_text: Button 2
-button2_url: https://linkedin.com/in/adrianmoreno
-button2_icon: icon-face-smile
+button2_text: View my skills
+button2_url: /skills
+button2_icon: icon-gear
 
-button3_text: Button 3
-button3_url: https://linkedin.com/in/adrianmoreno
-button3_icon: icon-circle-arrow-up
+button3_text: Printable CV
+button3_url: /cv
+button3_icon: icon-print
 
 ---
 
-This is where you can highlight a bit over your experience. Years of total experience, specialization, etc.
+I am a **Professional IT DevOps and Cloud Engineer** with hands-on experience across enterprise data centre operations, cloud-native platform engineering, and DevSecOps automation.
 
-The content in this intro comes from the `content/experience/_index.md` file.
-These kind of content, the "index pages", are called "branch bundles". You can read more about [**sections and bundles** in Hugo's docs](https://gohugo.io/content-management/sections/#template-selection).
+My work spans **multi-cloud** environments on **AWS, Azure, Google Cloud, and Alibaba Cloud**, container platforms on **Kubernetes** and **Docker**, and infrastructure defined as code with **Terraform** and **Ansible**. I build the CI/CD pipelines and security guardrails that let product teams release safely, and I run the observability stack — metrics, logs, and traces via **OpenTelemetry**, **Prometheus**, and **Grafana** — that tells us whether those releases are actually healthy.
 
-The content for each experience item (that you can click on the left) is defined in the `content/experience` folder, with one content item per experience, as in `job-1.md`, `job-2.md`, etc.
+Most recently I have been implementing an **OpAMP control panel for fleet management of OpenTelemetry Collectors**, which automates observability agent setup across large numbers of hosts and services instead of configuring them by hand.
 
-The content (text and URL) for the buttons below (where you can add links) comes from two different files, depending on where you see this content:
-1. in the "experience" page (`/experience`): this is passed from the content file, in `/content/experience/_index.md`
-2. in the home page (or another page), using shortcodes.
-
-In both cases, the arguments that can be passed (either via shortcode or front matter arguments) are:
-- button1: 
-    - button1_text
-    - button1_ url
-    - button1_icon
-- button2:
-    - button2_text
-    - button2_ url
-    - button2_icon
-- button3:
-    - button3_text
-    - button3_ url
-    - button3_icon
+I started out building applications end to end as a fullstack engineer, which is why I care about platforms from the perspective of the people shipping on top of them. Select a role on the left to read the details.

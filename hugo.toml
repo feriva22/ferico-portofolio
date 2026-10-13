@@ -1,5 +1,5 @@
 baseURL = "https://www.ferico.my.id/"
-title = 'Ferico - Personal Portfolio'
+title = 'Ferico — DevOps & Cloud Engineer'
 languageCode = "en"
 
 # Exclude footer section from generating list pages (index.html and index.xml)
@@ -43,8 +43,6 @@ target = "layouts"
 source = "static"
 target = "static"
 
-# The following mounts are required for the theme to be able to load bootstrap
-# Remember also to copy the theme's `package.json` to your site, and run `npm install`
 [[module.mounts]]
 source = "node_modules/bootstrap/scss"
 target = "assets/scss/bootstrap"
@@ -63,8 +61,8 @@ target = "assets/css/bootstrap-print.css"
 
 
 [params]
-title = 'Ferico - Personal Portfolio'
-description = 'A personal portfolio website built with Hugo and the Adritian theme.'
+title = 'Ferico — DevOps & Cloud Engineer'
+description = 'Professional IT DevOps and Cloud Engineer specialising in cloud-native platforms, multi-cloud (AWS, Azure, Google Cloud, Alibaba Cloud), Kubernetes, Terraform, CI/CD, DevSecOps and observability.'
 images = ['/img/og-img.png']
 sections = [
   "showcase",
@@ -147,7 +145,7 @@ weight = 4
 #  weight = 4
 
 [[languages.en.menus.header]]
-name = "How to"
+name = "Blog"
 URL = "/blog"
 weight = 5
 

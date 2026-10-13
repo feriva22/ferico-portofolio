@@ -1,19 +1,44 @@
 ---
-date: 2024-12-01T00:00:00+01:00
+date: 2024-01-01T00:00:00+07:00
 draft: false
-title: "Job #3"
-jobTitle: "CIO"
-company: "Internet Affairs Inc. "
-location: "Stavanger, Norway"
-duration: "2024-now"
+title: "Data Center & Cloud Engineer / DevSecOps Engineer"
+jobTitle: "Data Center & Cloud Engineer / DevSecOps Engineer"
+company: "PT. Pos Indonesia (Persero)"
+location: "Jakarta, Indonesia"
+duration: "2024 - Present"
+companyLogo: "images/experience/internet-affairs.png"
 
 ---
-## 3rd job: CIO
+## Data Center & Cloud Engineer / DevSecOps Engineer — PT. Pos Indonesia (Persero)
 
-As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.
+Drive the cloud-native platform and DevSecOps practice for one of Indonesia's largest state-owned logistics and postal enterprises. The work spans enterprise data centre operations, multi-cloud platform engineering, and the automation that lets product teams deliver securely and predictably on top of it.
 
-During my tenure, I've spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious "Digital Innovation Award 2024".
+## Focus areas
 
-I'm particularly proud of our "Green Computing" program which has successfully migrated 75% of our data centers to renewable energy sources. This environmental initiative not only reduced our carbon footprint by 45% but also resulted in a 30% reduction in operational costs.
+### Multi-cloud and cloud-native platform
+- Design and operate workloads across **AWS, Azure, Google Cloud, and Alibaba Cloud**, matching each service to cost, compliance, and latency requirements rather than defaulting to a single provider.
+- Run containerised platforms on **Kubernetes** and **Docker**, including cluster lifecycle management, ingress, autoscaling, and workload placement for high-availability production services.
+- Apply **Infrastructure as Code** (**Terraform**, **Ansible**) so that environments are versioned, reviewable, and reproducible instead of hand-built.
 
-In my role, I also serve as a member of the executive board, helping shape the company's long-term technology vision and ensuring our IT strategy aligns perfectly with our business objectives. Currently leading an ambitious AI integration project that promises to revolutionize our customer service capabilities.
+### DevSecOps and delivery automation
+- Build and maintain **CI/CD pipelines** for application and platform teams, embedding automated testing, artifact scanning, and progressive delivery.
+- Shift security left by integrating **SAST/DAST**, container image scanning, secret management, and policy checks into the pipeline so vulnerabilities are caught before release, not after.
+- Standardise release and rollback procedures so deployments to production are low-risk and repeatable.
+
+### Observability and reliability engineering
+- Operate the observability stack end to end — metrics, logs, and distributed traces collected through **OpenTelemetry** into **Prometheus**, **Grafana**, and log aggregation.
+- Define SLOs and alerting that surface genuine user-impacting issues early instead of flooding on-call with noise.
+- Lead incident response and blameless post-mortems, then turn the findings into automation and guardrails.
+
+### Observability fleet management (current initiative)
+- Implementing an **OpAMP control panel** for **fleet management of OpenTelemetry Collectors**, enabling centralised configuration, remote agent provisioning, and automatic observability agent setup across environments.
+- The result is that onboarding a new service or host to full observability no longer requires manual agent installation and per-node configuration — collectors register with the control plane, receive their configuration remotely, and are managed centrally at fleet scale.
+
+### Data centre and infrastructure operations
+- Manage enterprise **data centre** operations including capacity planning, networking, virtualisation, backup and disaster recovery, and hardware lifecycle.
+- Drive cost optimisation across cloud and on-premise footprints, right-sizing workloads and eliminating idle capacity.
+- Document architecture and runbooks so that operational knowledge is shared rather than held by individuals.
+
+## How I work
+
+I care about platforms that are understandable and dependable. That means infrastructure described in code, pipelines that fail loudly and early, observability that answers "is the service healthy?" without guesswork, and automation that removes toil rather than moving it around.

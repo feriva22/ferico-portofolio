@@ -1,12 +1,23 @@
 ---
 title: Experiencia
+button1_text: Conectar en LinkedIn
+button1_url: https://www.linkedin.com/in/ferico
+button1_icon: icon-linkedin
+
+button2_text: Ver mis habilidades
+button2_url: /es/skills
+button2_icon: icon-gear
+
+button3_text: CV imprimible
+button3_url: /es/cv
+button3_icon: icon-print
+
 ---
 
-Aquí es donde puedes destacar un poco sobre tu experiencia. Años de experiencia total, especialización, etc.
+Soy **Ingeniero DevOps y Cloud profesional** con experiencia práctica en operaciones de centro de datos empresarial, ingeniería de plataformas cloud native y automatización DevSecOps.
 
-El contenido en esta introducción viene del archivo `content/experience/_index.md`.
-Este tipo de contenido, las "páginas índice", se denominan "branch bundles" (paquetes de rama). Puede leer más sobre [**secciones y paquetes** en la documentación de Hugo](https://gohugo.io/content-management/sections/#template-selection).
+Mi trabajo abarca entornos **multi-cloud** en **AWS, Azure, Google Cloud y Alibaba Cloud**, plataformas de contenedores con **Kubernetes** y **Docker**, e infraestructura definida como código con **Terraform** y **Ansible**. Construyo las pipelines de CI/CD y las barreras de seguridad que permiten a los equipos de producto publicar con seguridad, y opero la pila de observabilidad — métricas, logs y trazas mediante **OpenTelemetry**, **Prometheus** y **Grafana**.
 
-El contenido para cada elemento de experiencia (en los que puedes hacer clic a la izquierda) se define en la carpeta `content/experience`, con un elemento de contenido por experiencia, como en `job-1.es.md`, `job-2.es.md`, etc.
+Recientemente he estado implementando un **panel de control OpAMP para la gestión de flotas de OpenTelemetry Collectors**, que automatiza la configuración de agentes de observabilidad en grandes cantidades de hosts y servicios.
 
-El contenido (texto y URL) para los botones a continuación (donde puedes agregar enlaces) proviene del archivo de traducción, `i18n/en.yaml`, en los elementos `experience_button`, `experience_button_url`, `experience_button2`, `experience_button2_url`, `experience_button3`, `experience_button3_url`.
+Empecé construyendo aplicaciones de extremo a extremo como ingeniero fullstack, y por eso me importan las plataformas desde la perspectiva de quienes despliegan sobre ellas.

@@ -36,12 +36,8 @@ draft = false
 
 
 {{< text-section
-title="Extra footer content"
+title="Let's work together"
 centered="true"
 >}}
-Additional content added after the `section` blocks. 
-
-Here you could freestyle, add other shortcodes, ...  Or just let the content empty, and rely on the shortcode sections alone.
-
-To make the text nicely wrapped in the footer, the shortcode `text-section` is used.
+I'm open to conversations about cloud platform engineering, DevSecOps, and observability — whether that's a role, a consulting engagement, or simply comparing notes on running Kubernetes at scale.
 {{< /text-section >}}

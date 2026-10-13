@@ -1,12 +1,23 @@
 ---
 title: Expérience
+button1_text: Se connecter sur LinkedIn
+button1_url: https://www.linkedin.com/in/ferico
+button1_icon: icon-linkedin
+
+button2_text: Voir mes compétences
+button2_url: /fr/skills
+button2_icon: icon-gear
+
+button3_text: CV imprimable
+button3_url: /fr/cv
+button3_icon: icon-print
+
 ---
 
-C'est ici que vous pouvez mettre en avant un peu de votre expérience. Années d'expérience totale, spécialisation, etc.
+Je suis **Ingénieur DevOps et Cloud professionnel** avec une expérience pratique en exploitation de centres de données d'entreprise, en ingénierie de plateformes cloud native et en automatisation DevSecOps.
 
-Le contenu de cette introduction provient du fichier `content/experience/_index.md`.
-Ce type de contenu, les "pages d'index", sont appelées "branch bundles" (paquets de branche). Vous pouvez en savoir plus sur [**les sections et les paquets** dans la documentation de Hugo](https://gohugo.io/content-management/sections/#template-selection).
+Mon travail couvre des environnements **multi-cloud** sur **AWS, Azure, Google Cloud et Alibaba Cloud**, des plateformes de conteneurs avec **Kubernetes** et **Docker**, et de l'infrastructure définie as code avec **Terraform** et **Ansible**. Je construis les pipelines CI/CD et les garde-fous de sécurité qui permettent aux équipes produit de livrer en toute sécurité, et j'exploite la pile d'observabilité — métriques, logs et traces via **OpenTelemetry**, **Prometheus** et **Grafana**.
 
-Le contenu pour chaque élément d'expérience (sur lesquels vous pouvez cliquer à gauche) est défini dans le dossier `content/experience`, avec un élément de contenu par expérience, comme dans `job-1.fr.md`, `job-2.fr.md`, etc.
+Récemment, j'ai mis en œuvre un **panneau de contrôle OpAMP pour la gestion de flottes d'OpenTelemetry Collectors**, qui automatise la configuration des agents d'observabilité sur un grand nombre d'hôtes et de services.
 
-Le contenu (texte et URL) pour les boutons ci-dessous (où vous pouvez ajouter des liens) provient du fichier de traduction, `i18n/fr.yaml`, dans les éléments `experience_button`, `experience_button_url`, `experience_button2`, `experience_button2_url`, `experience_button3`, `experience_button3_url`.
+J'ai commencé par développer des applications de bout en bout en tant qu'ingénieur fullstack, ce qui explique mon attention aux plateformes du point de vue de ceux qui déploient dessus.

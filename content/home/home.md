@@ -6,43 +6,28 @@ draft = false
 
 
 {{< showcase-section
-    title="Showcase section"
-    subtitle="Subtitle - coming from <code>home.md</code>"
-    buttonText="Email"
-    description="<strong>Strong</strong>, <em>italic</em> and normal text. This comes from <a href='https://github.com/zetxek/adritian-demo/blob/main/content/home/home.md?plain=1'><code>home.md</code></a>, using the <code>showcase-section</code> <a href=''>shortcode</a>.<br/>Below you can see the social links, provided by the <code>platform-links</code> shortcode."
-    imgSrc="images/showcase/showcase.png"
+    title="Ferico"
+    subtitle="Professional IT DevOps & Cloud Engineer"
+    buttonText="Hire Me"
+    button_url="mailto:contact@ferico.my.id"
+    button_icon="icon-envelope"
+    description="I design, automate, and operate <strong>cloud-native platforms</strong> across <strong>AWS, Azure, Google Cloud, and Alibaba Cloud</strong>.<br/>From Kubernetes and Infrastructure as Code to DevSecOps pipelines and enterprise observability — I build the platforms that let teams ship reliably."
+    imgSrc="images/about/user-picture.png"
     imgScale="0.5"
  >}}
 
 {{< platform-links >}}
-    {{< link icon="square-facebook" url="https://facebook.com/yourpage" >}}
-    {{< link icon="square-twitter" url="https://twitter.com/yourpage" >}}
-    {{< link icon="linkedin" url="https://www.linkedin.com/in/adrianmoreno/" >}}
-    {{< link icon="square-github" url="https://github.com/zetxek" >}}
-    {{< link icon="x-twitter" url="https://twitter.com/zetxek" >}}
-    {{< link icon="dribbble" url="#" >}}
-    {{< link icon="behance" url="#" >}}
-    {{< link icon="youtube" url="#" >}}
-    {{< link icon="instagram" url="https://www.instagram.com/zetxek/" >}}
-    {{< link icon="square-facebook" url="https://www.facebook.com/zetxek/" >}}
-    {{< link icon="codepen" url="#" >}}
-    {{< link icon="yelp" url="https://www.yelp.com/" >}}
-    {{< link icon="bluesky" url="https://www.bluesky.com/" >}}
-    {{< link icon="threads" url="https://www.threads.net/" >}}
-    {{< link icon="face-smile" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="user" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="quote-left" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="cloud-arrow-down" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="square-xing" url="https://www.adrianmoreno.info/" >}}
-
+    {{< link icon="linkedin" url="https://www.linkedin.com/in/ferico" >}}
+    {{< link icon="square-github" url="https://github.com/feriva22" >}}
+    {{< link icon="envelope" url="mailto:contact@ferico.my.id" >}}
 {{< /platform-links >}}
 
 {{< /showcase-section >}}
 
 {{< about-section
     title="About me"
-    content="This content is using the <code>about-section</code> shortcode. <br/>You can write <code>HTML</code>, as long as you <em>wrap it</em> accordingly. "
-    button_icon="icon-user"
+    content="I'm a DevOps and Cloud Engineer focused on <strong>cloud-native infrastructure</strong>, <strong>automation</strong>, and <strong>reliability</strong>. My day-to-day is Kubernetes, Terraform, CI/CD, and observability at enterprise scale.<br/>I work across <strong>four major clouds</strong> — AWS, Azure, Google Cloud, and Alibaba Cloud — choosing the right platform for each workload rather than forcing everything onto one.<br/>I started my career building applications end to end, which is why I think about platforms from the perspective of the engineers who have to deploy on them every day."
+    button_icon="icon-gear"
     button_text="Check my skills"
     button_url="/skills"
     imgSrc="images/about/user-picture.png"
@@ -51,45 +36,28 @@ draft = false
  >}}
 
 {{< education-list
-    title="Formal Education (education-list)" >}}
+    title="Formal Education" >}}
 
 {{< experience-section
-    title="My job experience (title)"
-    intro_title="Intro (intro_title)"
-    intro_description="Description (intro_description).<br>You can use HTML,with <strong>strong</strong> formatting, or lists <ul><li>one</li><li>two</li></ul>" 
-    button1_url="https://example.com"
-    button1_text="(1) Visit Example"
-    button1_icon="icon-globe"
-    button2_text="(2) Skills"
+    title="Professional Experience"
+    intro_title="Building reliable platforms, not just infrastructure"
+    intro_description="I'm currently a <strong>Data Center &amp; Cloud Engineer / DevSecOps Engineer</strong> at <strong>PT. Pos Indonesia (Persero)</strong> in Jakarta, where I run multi-cloud and Kubernetes platforms and drive DevSecOps automation.<br/>My current initiative is an <strong>OpAMP control panel for OpenTelemetry Collector fleet management</strong> — enabling automatic observability agent setup across environments instead of manual per-host configuration.<br/>Before moving into platform engineering I worked as a <strong>Fullstack Engineer</strong>, building and operating business applications end to end."
+    button1_url="https://www.linkedin.com/in/ferico"
+    button1_text="Connect on LinkedIn"
+    button1_icon="icon-linkedin"
+    button2_text="My skills"
     button2_url="/skills"
     hideViewAll="false"
 >}}
 
 {{< experience-list
-    title="Experience (as list)"
+    title="Experience details"
     padding="false" >}}
 
 {{< client-and-work-section
-    title="A selection of my work" >}} 
+    title="Certifications & Areas of Expertise" >}} 
 
 {{< testimonial-section
-    title="What they say about me" >}}
+    title="What colleagues say" >}}
 
 {{< spacer size="large" >}}
-
-## Extra home content
-
-Additional content added after the `section` blocks, in the `home.md` file. 
-
-Here you could freestyle, add other shortcodes, ...  Or just let the content empty, and rely on the shortcode sections alone.
-
-{{< spacer size="small" >}}
-
-{{< text-section
-title="Extra (centered) content"
-centered="true"
->}}
-
-You can also use the `text-section` shortcode to add centered texts
-
-{{< /text-section >}}
